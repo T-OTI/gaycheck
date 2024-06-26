@@ -12,7 +12,7 @@ submitBtn.addEventListener('click', async function(){
 
   await sleep(Math.random() * 2000 + 2000);
 
-  if(name === 'Bao Anh' || name === 'Banh' || name === 'banh' || name === 'Nhan' || name === 'nhan' || name === 'Dinh anh' || name === 'dinh anh' || name === 'danh' || name === 'anh' || name === 'Hoang' || name === 'hoang' || name === 'hoàng' || name === 'Hoàng'){
+  if(name === 'Bao Anh' || name === 'Banh' || name === 'banh' || name === 'Nhan' || name === 'nhan' || name === 'Nhân' || name === 'nhân' || name === 'Dinh anh' || name === 'dinh anh' || name === 'danh' || name === 'anh' || name === 'Hoang' || name === 'hoang' || name === 'hoàng' || name === 'Hoàng'){
     result = '100%';
   }
   else {
